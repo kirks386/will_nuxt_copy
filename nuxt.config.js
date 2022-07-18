@@ -26,7 +26,14 @@ export default {
   buildModules: ["@nuxtjs/sanity"],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
-  modules: [],
+  modules: ["@nuxtjs/sanity"],
+  sanity: {
+    projectId: "x9yq2ba7",
+    dataset: "blog-test",
+    apiVersion: "2022-07-18",
+    token:
+      "skwRr2zjjv2G2sTDfel4xCt2vrvZpkAOi2FvJU7YhGGEFiCPOXqIOZ27Tu6VNKSJ3FBB3UyFtTkTYnSguNLr3p0qcWafGwFkolqW1wlmiTfcqpMKIYHix6QPGRTOBELzv3mZ1ekouH6hjY3tC6AJKAZyelMrTP4Z90ShNuaCMiNTI1agscFT"
+  },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {}

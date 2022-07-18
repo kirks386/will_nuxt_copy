@@ -1,15 +1,14 @@
 {
   "root": true,
   "project": {
-    "name": "My Sanity Project"
+    "name": "Blog Test"
   },
   "api": {
-    "projectId": "9uddyopk",
-    "dataset": "production"
+    "projectId": "x9yq2ba7",
+    "dataset": "blog-test"
   },
   "plugins": [
     "@sanity/base",
-    "@sanity/components",
     "@sanity/default-layout",
     "@sanity/default-login",
     "@sanity/desk-tool"
